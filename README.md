@@ -30,8 +30,7 @@ A Spring Boot based Library Management System built using Java, Spring Boot, Spr
 - Spring Boot Actuator
 - Lombok
 
-## Project Structure
-
+```text
 LibraryProject/
 ├── src/
 ├── .mvn/
