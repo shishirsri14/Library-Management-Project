@@ -33,6 +33,13 @@ A Spring Boot based Library Management System built using Java, Spring Boot, Spr
 ```text
 LibraryProject/
 ├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── LibraryProject/
+│   │   └── resources/
+│   │       └── application.properties
+│   └── test/
 ├── .mvn/
 ├── mvnw
 ├── mvnw.cmd
@@ -102,9 +109,10 @@ Spring Boot Actuator is enabled for application monitoring and information.
 
 Available endpoints include:
 
-/actuator
-/actuator/health
-/actuator/info
+/author
+/author/{id}
+/api/books/{id}
+/api/books/search
 
 Actuator provides information related to:
 
