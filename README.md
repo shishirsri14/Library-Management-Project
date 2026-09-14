@@ -109,10 +109,9 @@ Spring Boot Actuator is enabled for application monitoring and information.
 
 Available endpoints include:
 
-/author
-/author/{id}
-/api/books/{id}
-/api/books/search
+/actuator
+/actuator/health
+/actuator/info
 
 Actuator provides information related to:
 
